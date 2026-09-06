@@ -1,0 +1,13 @@
+[project]
+name = "agentic-soc-poc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "boto3>=1.43.83",
+    "elasticsearch>=9.5.0",
+    "openai>=3.8.0",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+]
